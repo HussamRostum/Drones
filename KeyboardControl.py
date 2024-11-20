@@ -29,7 +29,7 @@ def getKeyboardInput():
         yv = speed
     if kp.getKey("q"):
         me.land()
-        sleep(3)
+        sleep(3) 
     if kp.getKey("e"):
         me.takeoff()
     return [lr, fb, ud, yv]

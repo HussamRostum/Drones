@@ -33,7 +33,7 @@ print("Battery level:", me.get_battery())
 me.streamon()
 
 # Output directory for videos
-output_dir = r"C:\Users\FIEK_EIKI\Desktop\drones"
+output_dir = r"C:\Users\EXCALIBUR\Desktop\drones"
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
